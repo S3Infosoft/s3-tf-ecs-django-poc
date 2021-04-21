@@ -53,7 +53,12 @@ Add a "templates" folder to the "terraform" folder, and then add a new template 
 Add the middleware to app/hello_django/middleware.py
 Add the class to the middleware config in settings.py:
 'hello_django.middleware.HealthCheckMiddleware',  # new
-Set the STATIC_ROOT in your settings.py file
+
+6. Update python files in the app:
+
+Add DATABASES in the settings.py file
+
+Set the STATIC_ROOT in settings.py file
 
 6. Create a nginx folder in the project root directory: Add Dockerfile related to nginx and nginx.config files
 
