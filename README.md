@@ -1,5 +1,6 @@
 # s3-tf-ecs-django-poc
 # Project Setup
+
 Let's start by setting up a quick Django project.
 Create a new project directory along with a new Django project:
 
